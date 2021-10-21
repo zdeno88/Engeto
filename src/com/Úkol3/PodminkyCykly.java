@@ -144,14 +144,14 @@ public class PodminkyCykly {
 
     public static void main(String[] args) {
         // Příklad:
-//        System.out.println("--- Example - read and print one integer ---");
-//        readOneIntFromInputAndPrintIt();
+        System.out.println("--- Example - read and print one integer ---");
+        readOneIntFromInputAndPrintIt();
         // ---
-//        System.out.println("--- Task 1 - read and print integers until negative ---");
-//        readIntsFromInputAndPrintItUntilNegative();
+        System.out.println("--- Task 1 - read and print integers until negative ---");
+        readIntsFromInputAndPrintItUntilNegative();
         // ---
-//        System.out.println("--- Task 2 - sum all integers until negative ---");
-//        System.out.println("Total sum: " + sumAllInputUntilNegative());;
+        System.out.println("--- Task 2 - sum all integers until negative ---");
+        System.out.println("Total sum: " + sumAllInputUntilNegative());;
         // ---
         System.out.println("--- Task 3 - read integers to list until negative ---");
         List<Integer> list = storeAllInputInArrayListUntilNegative();
