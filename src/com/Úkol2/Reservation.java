@@ -1,4 +1,4 @@
-package com.company;
+package com.Úkol2;
 
 import java.time.LocalDate;
 
@@ -6,15 +6,15 @@ public class Reservation {
     private Guest guest1;
     private Guest guest2;
     private Room room;
-    private LocalDate ComingDate;
-    private LocalDate LeavingDate;
+    private LocalDate comingDate;
+    private LocalDate leavingDate;
 
     public Reservation(Guest guest1, Guest guest2, Room room,LocalDate comingDate, LocalDate leavingDate) {
         this.guest1 = guest1;
         this.guest2 = guest2;
         this.room=room;
-        ComingDate = comingDate;
-        LeavingDate = leavingDate;
+        this.comingDate = comingDate;
+        this.leavingDate = leavingDate;
     }
 
    public String getDescription(){
@@ -39,16 +39,16 @@ public class Reservation {
     }
 
     public LocalDate getComingDate() {
-        return ComingDate;
+        return comingDate;
     }
     public void setComingDate(LocalDate comingDate) {
-        ComingDate = comingDate;
+        this.comingDate = comingDate;
     }
 
     public LocalDate getLeavingDate() {
-        return LeavingDate;
+        return leavingDate;
     }
     public void setLeavingDate(LocalDate leavingDate) {
-        LeavingDate = leavingDate;
+        this.leavingDate = leavingDate;
     }
 }

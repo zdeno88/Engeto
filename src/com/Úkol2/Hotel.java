@@ -1,4 +1,4 @@
-package com.company;
+package com.Úkol2;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
@@ -14,7 +14,7 @@ public class Hotel {
 //        System.out.println(jan.getDescription());
 
         Room room1=new Room(1,1,true,true,1000);
-        Room room2=new Room(2,1,true,true,1000);
+//        Room room2=new Room(2,1,true,true,1000);
         Room room3=new Room(3,3,false,true,2400);
 //        System.out.println(room1.getDescription());
 //        System.out.println(room2.getDescription());

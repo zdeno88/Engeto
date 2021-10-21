@@ -1,4 +1,4 @@
-package com.company;
+package com.Úkol2;
 
 import java.time.LocalDate;
 

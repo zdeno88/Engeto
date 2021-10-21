@@ -1,4 +1,4 @@
-package com.company;
+package com.Úkol2;
 
 public class Room {
     private int roomNumber;
