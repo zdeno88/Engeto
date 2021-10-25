@@ -9,16 +9,18 @@ public class Reservation {
     private Room room;
     private LocalDate comingDate;
     private LocalDate leavingDate;
+    private JePracovni jePracovni;
 
-    public Reservation(Guest guest, Room room,LocalDate comingDate, LocalDate leavingDate) {
+    public Reservation(Guest guest, Room room,LocalDate comingDate, LocalDate leavingDate, JePracovni jePracovni) {
         this.guest = guest;
         this.room=room;
         this.comingDate = comingDate;
         this.leavingDate = leavingDate;
+        this.jePracovni=jePracovni;
     }
 
    public String getDescription(){
-         return guest.getDescription()+getGuestList()+"\n"+room.getDescription();
+         return guest.getDescription()+getGuestList()+"\n"+room.getDescription()+"Typ pobytu: "+jePracovni.getTyp()+"\n";
     }
 
     public String getGuestList(){
@@ -29,7 +31,7 @@ public class Reservation {
         return result.toString();
     }
 
-    public void setGuestList(Guest host) {
+    public void addGuestList(Guest host) {
         guestList.add(host);
     }
 

@@ -20,9 +20,9 @@ public class Hotel {
 //        System.out.println(room2.getDescription());
 //        System.out.println(room3.getDescription());
 
-        Reservation res1=new Reservation(adela,room1,LocalDate.of(2021,7,19),LocalDate.of(2021,7,26));
-        Reservation res2=new Reservation(adela,room3,LocalDate.of(2021,9,1),LocalDate.of(2021,9,14));
-        res2.setGuestList(jan);
+        Reservation res1=new Reservation(adela,room1,LocalDate.of(2021,7,19),LocalDate.of(2021,7,26),JePracovni.PRACOVNI);
+        Reservation res2=new Reservation(adela,room3,LocalDate.of(2021,9,1),LocalDate.of(2021,9,14),JePracovni.SOUKROMY);
+        res2.addGuestList(jan);
         list.add(res1);
         list.add(res2);
 
