@@ -1,4 +1,4 @@
-package com.Úkol3;
+package com.Ukol3;
 
 public class FizzBuzz {
     public static void main(String[] args) {

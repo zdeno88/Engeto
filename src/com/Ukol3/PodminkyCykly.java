@@ -1,4 +1,4 @@
-package com.Úkol3;
+package com.Ukol3;
 
 import java.util.ArrayList;
 import java.util.List;

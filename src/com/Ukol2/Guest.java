@@ -1,4 +1,4 @@
-package com.Úkol2;
+package com.Ukol2;
 
 import java.time.LocalDate;
 
