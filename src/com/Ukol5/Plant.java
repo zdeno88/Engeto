@@ -16,9 +16,15 @@ public class Plant {
         }
         this.planted = LocalDate.parse(planted);
         this.watering = LocalDate.parse(watering);
-        if (Integer.parseInt(frequencyOfWatering)<=0)
-            throw new PlantException("Nulove nebo zaporne cislo");
-        this.frequencyOfWatering = Integer.parseInt(frequencyOfWatering);
+
+        try {
+            if (Integer.parseInt(frequencyOfWatering)<=0)
+                throw new PlantException("Nulove nebo zaporne cislo");
+            this.frequencyOfWatering = Integer.parseInt(frequencyOfWatering);
+        }
+        catch (NumberFormatException e){
+            System.out.println("Nespravny format cisla ze souboru!!! ");
+        }
     }
     public Plant(String name, String notes, LocalDate planted, LocalDate watering, int frequencyOfWatering) throws PlantException {
         this.name = name;

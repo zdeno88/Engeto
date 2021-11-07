@@ -6,8 +6,12 @@ Nazev kvetiny: Vánoční hvězda
 Datum posledni zalivky: 2021-05-10
 Datum doporucene dalsi zalivky: 2021-05-14
 
-Nazev kvetiny: Sukulent v koupelně
-Datum posledni zalivky: 2011-03-01
-Datum doporucene dalsi zalivky: 2012-02-29
+Nazev kvetiny: orchidej
+Datum posledni zalivky: 2021-11-07
+Datum doporucene dalsi zalivky: 2021-11-08
+
+Nazev kvetiny: ruze
+Datum posledni zalivky: 2021-11-07
+Datum doporucene dalsi zalivky: 2021-11-14
 
 

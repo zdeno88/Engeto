@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) throws PlantException {
-        final String FILE_NAME="C:\\Users\\skaryd\\Documents\\Engeto\\Engeto\\src\\com\\Ukol4\\kvetiny.txt";
+        final String FILE_NAME="C:\\Users\\skaryd\\Documents\\Engeto\\Engeto\\src\\com\\Ukol5\\kvetiny.txt";
         File file=new File(FILE_NAME);
         final int POCET_V_POLI=5;
         ListOfPlants listOfPlants=new ListOfPlants();
@@ -24,7 +24,7 @@ public class Main {
             }
         }
         catch (FileNotFoundException e){
-            System.out.println("soubor nenalezen");
+            System.out.println("Vstupni soubor nenalezen");
         }
         Plant ros1=new Plant("orchidej", LocalDate.of(2020,1,1),1);
         Plant ros2=new Plant("ruze");
@@ -35,7 +35,7 @@ public class Main {
         list.addToList(ros3);
         System.out.println(listOfPlants.printParticularPlant(0));
 
-        File finalFile=new File("C:\\Users\\skaryd\\Documents\\Engeto\\Engeto\\src\\com\\Ukol4\\kvetiny2.txt");
+        File finalFile=new File("C:\\Users\\skaryd\\Documents\\Engeto\\Engeto\\src\\com\\Ukol5\\kvetiny2.txt");
         listOfPlants.addToList(ros1);
         listOfPlants.addToList(ros2);
         listOfPlants.removeFromList(2);
