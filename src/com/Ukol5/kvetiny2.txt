@@ -1,17 +1,5 @@
-Nazev kvetiny: Fialka
-Datum posledni zalivky: 2021-05-12
-Datum doporucene dalsi zalivky: 2021-05-15
-
-Nazev kvetiny: Vánoční hvězda
-Datum posledni zalivky: 2021-05-10
-Datum doporucene dalsi zalivky: 2021-05-14
-
-Nazev kvetiny: orchidej
-Datum posledni zalivky: 2021-11-07
-Datum doporucene dalsi zalivky: 2021-11-08
-
-Nazev kvetiny: ruze
-Datum posledni zalivky: 2021-11-07
-Datum doporucene dalsi zalivky: 2021-11-14
-
+Fialka;Popis fialky - je fialová a hezká;3;2021-05-12;2021-01-01
+Vánoční hvězda;bez poznámky;4;2021-05-10;2021-04-01
+orchidej;null;1;2021-11-09;2020-01-01
+ruze;null;7;2021-11-09;2021-11-09
 
