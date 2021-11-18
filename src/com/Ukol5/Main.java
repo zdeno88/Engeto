@@ -8,8 +8,9 @@ import java.time.LocalDate;
 public class Main {
     public static void main(String[] args){
 
-        final String FILE_NAME="C:\\Users\\skaryd\\Documents\\Engeto\\Engeto\\src\\com\\Ukol5\\kvetiny.txt";
-        ListOfPlants listOfPlants=ListOfPlants.loadFromTextFile(FILE_NAME);
+        final String FILE_NAME_FROM="C:\\Users\\skaryd\\Documents\\Engeto\\Engeto\\src\\com\\Ukol5\\kvetiny.txt";
+        ListOfPlants listOfPlants=ListOfPlants.loadFromTextFile(FILE_NAME_FROM);
+        final String FILE_NAME_TO="C:\\Users\\skaryd\\Documents\\Engeto\\Engeto\\src\\com\\Ukol5\\kvetiny2.txt";
 
         try {
             Plant ros1 = new Plant("orchidej", LocalDate.of(2020, 1, 1), 1);
@@ -31,7 +32,7 @@ public class Main {
             e.printStackTrace();
         }
 
-        File finalFile=new File("C:\\Users\\skaryd\\Documents\\Engeto\\Engeto\\src\\com\\Ukol5\\kvetiny2.txt");
+        File finalFile=new File(FILE_NAME_TO);
         listOfPlants.removeFromList(2);
 
         try (PrintWriter pw=new PrintWriter(finalFile)){
